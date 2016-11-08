@@ -14,7 +14,7 @@ Page({
   },
   textTap: function(){
       wx.navigateTo({
-      url: '../swiper/swiper',
+      url: '../show/show',
   success: function(res){
     // success
  console.log('push success')

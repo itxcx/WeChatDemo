@@ -4,7 +4,9 @@
     "pages/logs/logs",
     "pages/button/button",
     "pages/swiper/swiper",
-    "pages/checkbox/checkbox"
+    "pages/checkbox/checkbox",
+    "pages/icon/icon",
+    "pages/show/show"
   ],
   "window":{
     "backgroundTextStyle":"light",
