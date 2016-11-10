@@ -3,7 +3,7 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'pushPageView',
+    motto: '打开天气页面',
     userInfo: {}
   },
   //事件处理函数
@@ -11,23 +11,6 @@ Page({
     wx.navigateTo({
       url: '../logs/logs'
     })
-  },
-  textTap: function(){
-      wx.navigateTo({
-      url: '../request/request',
-  success: function(res){
-    // success
- console.log('push success')
-  },
-  fail: function() {
-    // fail
-    console.log('fail')
-  },
-  complete: function() {
-    // complete
-    console.log('push complete')
-  }
-})
   },
   onLoad: function () {
     console.log('onLoad')
@@ -38,7 +21,11 @@ Page({
       that.setData({
         userInfo:userInfo
       })
-      
+    })
+  },
+  tap:function(){
+    wx.navigateTo({
+      url: '../weather/weather'
     })
   }
 })

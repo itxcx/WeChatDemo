@@ -2,12 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/button/button",
-    "pages/swiper/swiper",
-    "pages/checkbox/checkbox",
-    "pages/icon/icon",
-    "pages/show/show",
-    "pages/request/request"
+    "pages/weather/weather",
+    "pages/addcityvc/addcityvc"
   ],
   "window":{
     "backgroundTextStyle":"light",
